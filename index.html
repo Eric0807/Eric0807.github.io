@@ -17,6 +17,7 @@
     <link href="css/main.css" rel="stylesheet">
     <script src="js/jquery.min.js" type="text/javascript"></script>
     <link rel="stylesheet" href="css/style.css">
+	<script src="js/dtime.js"></script>
     <script>
         var shouci = true;
         console.log(shouci);
@@ -81,22 +82,23 @@
                 正在准备烟花(Downloading files from github)
             </div>
         </div>
-
+		
         <div class="stage-container remove">
         <div class="page_two hide">
 			
 			
             <div id="text" style="display:none;"><br><span id="time"></span><br>岁未将至 平安喜乐 2023万事如意🧨
 <br>唯愿烟花像星辰   祝你所愿皆成真🧨<br><br>祝你钱兔无量，兔然暴富！
-<br><br></div><!--此处已进行修改，优化了倒计时-->
+<br><br><div id="daoji" ">test</div></div><!--此处已进行修改，优化了倒计时-->
             <div class="type_words" id="contents" style="font-size:1.08rem;line-height:1.5rem;"></div>
         </div>
+		
         <div class="canvas-container">
             <canvas id="trails-canvas"></canvas>
             <canvas id="main-canvas"></canvas>
         </div>
-
-        <div class="controls">
+       
+		<div class="controls">
             <div class="btn pause-btn">
                 <svg fill="0" width="0" height="0">
                     <use href="" xlink:href="">
@@ -300,7 +302,8 @@
     </script><!--引用结束(内容未修改)-->
 
 
-<script>
+
+<!-- <script>
 
 function TimeDown(id, endDateStr) {
     //结束时间
@@ -430,7 +433,7 @@ time()
 //var time_chuxi = new Date('2023-01-21 00:00:00').getTime();
 
   
-</script>
+</script> -->
 
 
 <!-- <script async src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
